@@ -13,6 +13,7 @@ int main()
         printf("Element found at %d location", flag);
     return (0);
 }
+
 int linear(int a[], int item, int size)
 {
     int i = 0;
