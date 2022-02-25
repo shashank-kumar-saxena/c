@@ -5,6 +5,7 @@ int main()
     int *p = &a;
     int *p2 = &b;
     int c = *p + *p2;
+    printf("%d\n", *p);
     printf("%d", c);
     return (0);
 }
