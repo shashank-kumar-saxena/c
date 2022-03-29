@@ -7,10 +7,9 @@ int main()
 }
 void bubble(int a[], int size)
 {
-    int i, j, flag = 1;
-    for (i = 1; i < size && flag; i++)
+    int i, j;
+    for (i = 1; i < size; i++)
     {
-        flag = 0;
         for (j = 0; j < (10 - i); j++)
         {
             if (a[j] > a[j + 1])
@@ -18,7 +17,6 @@ void bubble(int a[], int size)
                 int temp = a[j];
                 a[j] = a[j + 1];
                 a[j + 1] = temp;
-                flag = 1;
             }
         }
     }
