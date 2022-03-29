@@ -1,7 +1,7 @@
 #include <stdio.h>
 void fun(float a, float b)
 {
-    printf("%f\n", a * b);
+    printf("%f\n", a / b);
 }
 void main()
 {
