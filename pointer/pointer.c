@@ -2,10 +2,12 @@
 int main()
 {
     int a = 5, b = 6;
-    int *p = &a;
+    int *p;
+
     int *p2 = &b;
+    p = &a;
     int c = *p + *p2;
-    printf("%d\n", *p);
+    printf("%ud\n", p);
     printf("%d", c);
     return (0);
 }
